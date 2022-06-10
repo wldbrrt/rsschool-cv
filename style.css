@@ -66,35 +66,52 @@ nav {
     text-align: center;
     margin: auto;
     width: 1024px;
+    height: 100px;
     background-color: lightblue;
-    overflow: auto;
-    font-family: "Cabin", sans-serif;
-    font-size: 18px;
+    font-family: "Sans-serif";
+    font-weight: 100;
+    font-size: 22px;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 nav ul {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
     list-style-type: none;
+    position: relative;
 }
 
-nav ul li {
-    display: inline;
+nav ul li  {
+    display: inline-block;
+    width: 90px;
+    margin-top: 10px;
     margin-left: 3%;
-    background-color: rgb(67, 134, 136);
-    border-radius: 10px;
-    font-size: 20px;
     padding: 5px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
-
+    color: rgb(252, 253, 253);
+    display: inline-block;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 3%;
+    padding: 5px;
+    border-style: solid;
+    border-top-width: 2px;
+    border-width: 0px 4px 6px 4px;
+    border-color: rgb(7, 86, 88);
+    background-color: rgb(58, 132, 134);
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px 2px rgb(0 0 0 / 50%);
+    transition: 500ms;
 }
 
 nav ul li a:hover {
-    color: rgb(55, 49, 145);
+    border-width: 0px 2px 3px 2px; 
+    font-size: 90%;
+    box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 50%);
 }
 
 footer {
