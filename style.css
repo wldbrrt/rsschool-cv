@@ -101,15 +101,49 @@ footer {
     width: 1024px;
     margin: auto;
     padding-top: 10px;
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 footer div {
     display: inline-block;
-    float: right;
-    padding-left: 20px;
 }
 
-div a img {
+.footblocks {
+    float: right;
+    margin-left: 10%;
+}
+
+.footblocks a {
+    position: relative;
+    display: inline-block;
+    font-family: impact;
+    font-size: 2em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgb(19, 66, 104), rgb(9, 66, 104) 50%, rgb(0, 0, 0) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 200%;
+    background-position: 100% 100%;
+    transition: background-position 500ms;
+    text-decoration: none;
+}
+
+.footblocks a:hover {
+      background-position: 100% 0%;
+}
+  
+
+.foot-logo img{
     height: 100px;
     width: 200px;
 }
+
+
+
+
+
