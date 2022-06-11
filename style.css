@@ -176,9 +176,26 @@ footer div {
 }
   
 
-.foot-logo img{
+.foot-logo {
     height: 70px;
     width: 195px;
+    background-image: url(images/rsschoollogo.png);
+    background-size: 195px 70px;
+    transition: 500ms;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.foot-logo a {
+    display: inline-block;
+    height: 70px;
+    width: 195px;
+
+}
+
+.foot-logo:hover {
+    background-image: url(images/rsschoollogo-hover.png);
+
 }
 
 
