@@ -65,6 +65,16 @@ h1 {
     display: inline-block;
 }
 
+.list-contacts li a {
+    text-decoration: none;
+    color: black;
+    transition: 600ms;
+}
+
+.list-contacts li a:hover {
+    color: rgb(121, 119, 4);
+}
+
 .contacts-images {
     width: 30px;
     padding-left: 22px;
