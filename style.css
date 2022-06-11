@@ -72,7 +72,7 @@ h1 {
 }
 
 .list-contacts li a:hover {
-    color: rgb(121, 119, 4);
+    color: #fe9835;
 }
 
 .contacts-images {
@@ -91,6 +91,15 @@ h1 {
 
 .list-right {
     margin-top: 100px;
+}
+
+.finished-tasks a {
+    color: black;
+    transition: 500ms;
+}
+
+.finished-tasks a:hover{
+    color: #fe9835;
 }
 
 nav {
@@ -143,6 +152,7 @@ nav ul li a:hover {
     border-width: 0px 2px 3px 2px; 
     font-size: 90%;
     box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 50%);
+    color: #fe9835;
 }
 
 footer {
@@ -171,7 +181,7 @@ footer div {
     font-weight: 500;
     color: rgb(0, 0, 0);
     overflow: hidden;
-    background: linear-gradient(to bottom, rgb(19, 66, 104), rgb(9, 66, 104) 50%, rgb(0, 0, 0) 50%);
+    background: linear-gradient(to bottom, #fe9835, #fe9835 50%, rgb(0, 0, 0) 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
