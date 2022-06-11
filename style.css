@@ -39,11 +39,6 @@
     padding: 5px;
 }
 
-li p {
-    padding-left: 15%;
-    margin-top: 0px;
-}
-
 .container-right h2 {
     border-bottom: 3px solid rgb(67, 134, 136);
 }
@@ -56,6 +51,32 @@ h1 {
 
 .list-left {
     margin-top: 80px;
+}
+
+.list-contacts {
+    display: inline-block;
+    list-style-type: none;
+    width: 72%;
+    padding-left: 10px;
+    line-height: 28px;
+}
+
+.list-contacts li {
+    display: inline-block;
+}
+
+.contacts-images {
+    width: 30px;
+    padding-left: 22px;
+    padding-top: 14px;
+    float: left;
+}
+
+.contacts-images img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
 }
 
 .list-right {
