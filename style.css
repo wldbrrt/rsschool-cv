@@ -1,0 +1,224 @@
+.container-centered {
+    margin: auto;
+    width: 1024px;
+    box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+    overflow: auto;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+}
+
+.container-left {
+    float: left;
+    width: 30%;
+    background-color: lightblue;
+}
+
+.container-right {
+    padding-left: 30px;
+    margin-top: 30px;
+    float: right;
+    width: 65%;
+}
+
+.avatar img{
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 10px solid lightblue;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container-left h2 {
+    border: 1px solid grey;
+    width: 140px;
+    margin: auto;
+    background-color: rgb(67, 134, 136);
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.container-right h2 {
+    border-bottom: 3px solid rgb(67, 134, 136);
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    width: 200px;
+}
+
+.list-left {
+    margin-top: 80px;
+}
+
+.list-contacts {
+    display: inline-block;
+    list-style-type: none;
+    width: 72%;
+    padding-left: 10px;
+    line-height: 28px;
+}
+
+.list-contacts li {
+    display: inline-block;
+}
+
+.list-contacts li a {
+    text-decoration: none;
+    color: black;
+    transition: 600ms;
+}
+
+.list-contacts li a:hover {
+    color: #fe9835;
+}
+
+.contacts-images {
+    width: 30px;
+    padding-left: 22px;
+    padding-top: 14px;
+    float: left;
+}
+
+.contacts-images img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
+
+.list-right {
+    margin-top: 100px;
+}
+
+.finished-tasks a {
+    color: black;
+    transition: 500ms;
+}
+
+.finished-tasks a:hover{
+    color: #fe9835;
+}
+
+nav {
+    text-align: center;
+    margin: auto;
+    width: 1024px;
+    height: 100px;
+    background-color: lightblue;
+    font-family: "Sans-serif";
+    font-weight: 100;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+nav ul {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    position: relative;
+}
+
+nav ul li  {
+    display: inline-block;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 3%;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(252, 253, 253);
+    display: inline-block;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 3%;
+    padding: 5px;
+    border-style: solid;
+    border-top-width: 2px;
+    border-width: 0px 4px 6px 4px;
+    border-color: rgb(7, 86, 88);
+    background-color: rgb(58, 132, 134);
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px 2px rgb(0 0 0 / 50%);
+    transition: 500ms;
+}
+
+nav ul li a:hover {
+    border-width: 0px 2px 3px 2px; 
+    font-size: 90%;
+    box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 50%);
+    color: #fe9835;
+}
+
+footer {
+    width: 1024px;
+    margin: auto;
+    padding-top: 10px;
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer div {
+    display: inline-block;
+}
+
+.footblocks {
+    float: right;
+    margin-left: 10%;
+}
+
+.footblocks a {
+    position: relative;
+    display: inline-block;
+    font-family: impact;
+    font-size: 2em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    background: linear-gradient(to bottom, #fe9835, #fe9835 50%, rgb(0, 0, 0) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 200%;
+    background-position: 100% 100%;
+    transition: background-position 500ms;
+    text-decoration: none;
+}
+
+.footblocks a:hover {
+      background-position: 100% 0%;
+}
+  
+
+.foot-logo {
+    height: 70px;
+    width: 195px;
+    background-image: url(images/rsschoollogo.png);
+    background-size: 195px 70px;
+    transition: 500ms;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.foot-logo a {
+    display: inline-block;
+    height: 70px;
+    width: 195px;
+
+}
+
+.foot-logo:hover {
+    background-image: url(images/rsschoollogo-hover.png);
+
+}
+
+
+
+
+
